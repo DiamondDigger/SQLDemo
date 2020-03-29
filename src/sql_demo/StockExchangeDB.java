@@ -19,7 +19,7 @@ public class StockExchangeDB {
 
         }catch (ClassNotFoundException e){
             e.printStackTrace();
-            System.out.println("JDBC driver is not find!");
+            System.out.println("DataBase driver is not find!");
         }catch (SQLException e){
             e.printStackTrace();
             System.out.println("SQL error!");
