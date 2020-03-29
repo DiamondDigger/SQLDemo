@@ -7,6 +7,9 @@ public class ShareRate extends BaseModel {
     private long share;
     private double rate;
 
+    public ShareRate() {
+    }
+
     public ShareRate(LocalDateTime operationDate, long share, double rate) {
         this.operationDate = operationDate;
         this.share = share;
