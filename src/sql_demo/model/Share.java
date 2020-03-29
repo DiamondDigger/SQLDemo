@@ -20,4 +20,37 @@ public class Share extends BaseModel{
         this.changeProbability = changeProbability;
         this.delta = delta;
     }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BigDecimal getStartPrice() {
+        return startPrice;
+    }
+
+    public void setStartPrice(BigDecimal startPrice) {
+        this.startPrice = startPrice;
+    }
+
+    public int getChangeProbability() {
+        return changeProbability;
+    }
+
+    public void setChangeProbability(int changeProbability) {
+        this.changeProbability = changeProbability;
+    }
+
+    public int getDelta() {
+        return delta;
+    }
+
+    public void setDelta(int delta) {
+        this.delta = delta;
+    }
 }
